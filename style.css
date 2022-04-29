@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; /* 15px! */
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%; /* 14px! */
+  }
+}
+
+body {
+  text-align: center;
+  background-color: #eee;
+  font-family: 'Helvetica';
+}
+
+#jogo {
+  background-color: #f8f8f8;
+  height: 40px;
+}
+
+.quadrado {
+  text-align: center;
+  width: 40px;
+  background: #dcdcdc;
+  display: inline-block;
+  padding: 30px;
+  font-size: 50px;
+  margin: 5px;
+  cursor: pointer;
+  color: #dcdcdc;
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 10px -1px rgba(0, 0, 0, 0.1);
+}
+
+.area-jogador {
+  display: inline-flex;
+}
+
+.jogador {
+  margin: 10px;
+}
+.vez {
+  margin-right: 50px;
+}
+
+.jogador,
+.vencedor,
+.vez {
+  align-items: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+button {
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 0.5rem;
+  font-size: 18px;
+  background: #f8f8f8;
+  cursor: pointer;
+}
+
+.btn1 {
+  border-color: #837acb;
+  color: #000;
+  box-shadow: 0 0 40px 40px #837acb inset, 0 0 0 0 #837acb;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.btn1:hover {
+  box-shadow: 0 0 10px 0 #837acb inset, 0 0 10px 4px #837acb;
+}
+
+.btn2 {
+  border-color: #e682a7;
+  color: #000;
+  box-shadow: 0 0 40px 40px #e682a7 inset, 0 0 0 0 #e682a7;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.btn2:hover {
+  box-shadow: 0 0 10px 0 #e682a7 inset, 0 0 10px 4px #e682a7;
+}
+
+/** DARK MODE **/
+body.dark-mode {
+  color: #f7f0e9;
+}
+
+#jogo {
+  color: #000;
+}
+
+#container {
+  position: relative;
+  bottom: 39px;
+  float: left;
+  margin-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 18px;
+}
+.switch input {
+  display: none;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+.slider:before {
+  content: '';
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  left: 2px;
+  bottom: 4px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background: #b892ff;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.dark-mode {
+  background: #0b0a14;
+}
+h4 {
+  color: #000;
+}
