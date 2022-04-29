@@ -1,6 +1,6 @@
 # #️⃣ Criando seu próprio Jogo da Velha - DIO
 
-[Preview](https://github.com/PatriciaRodriguesR/DIO-Jogo-Da-Velha#eye_speech_bubble-preview) • [Description](https://github.com/PatriciaRodriguesR/DIO-Jogo-Da-Velha#information_source-about) • [Technologies](https://github.com/PatriciaRodriguesR/DIO-Jogo-Da-Velha#hammer_and_wrench-technologies) • [Tasks](https://github.com/PatriciaRodriguesR/DIO-Jogo-Da-Velha#memo-tasks) • [License](https://github.com/PatriciaRodriguesR/DIO-Jogo-Da-Velha#page_with_curl-license) • [View Demo](https://PatriciaRodriguesR.github.io/DIO-Jogo-Da-Velha/)
+[Preview](https://github.com/PatriciaRodriguesR/DIO-Jogo-Da-Velha#eye_speech_bubble-Preview) • [Description](https://github.com/PatriciaRodriguesR/DIO-Jogo-Da-Velha#information_source-Description) • [Technologies](https://github.com/PatriciaRodriguesR/DIO-Jogo-Da-Velha#hammer_and_wrench-Technologies) • [Tasks](https://github.com/PatriciaRodriguesR/DIO-Jogo-Da-Velha#memo-Tasks) • [License](https://github.com/PatriciaRodriguesR/DIO-Jogo-Da-Velha#page_with_curl-License) • [View Demo](https://PatriciaRodriguesR.github.io/DIO-Jogo-Da-Velha/)
 
 ---
 
@@ -26,7 +26,7 @@ Link para visualizar: [View Demo](https://PatriciaRodriguesR.github.io/DIO-Jogo-
 
 ## ℹ️ Description
 
-Repositório do projeto prático proposto na aula do Bootcamp - Órbi Web Games Developer da [DIO](https://www.dio.me/), ministrada pelo especialista **Vitor Ruschoni**, com o desafio de desenvolver um jogo da velha, utilizando HTML, CSS and Javascript.
+Repositório do projeto prático proposto na aula do Bootcamp - Órbi Web Games Developer da [DIO](https://www.dio.me/), ministrada pelo especialista **Vitor Ruschoni**, com o desafio de desenvolver um jogo da velha, utilizando HTML, CSS e Javascript.
 
 ---
 
