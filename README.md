@@ -8,7 +8,7 @@
 
 ### Projeto 1:
 
-## 👁️‍🗨️ **Preview**
+## 👁️‍🗨️ Preview
 
 Link para visualizar: [View Demo](https://PatriciaRodriguesR.github.io/DIO-Jogo-Da-Velha/)
 
